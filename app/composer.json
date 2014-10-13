@@ -3,6 +3,16 @@
 		"vendor-dir": "Vendor"
 	},
 	"require": {
-		"mjohnson/uploader": "4.*"
-	}
+		"mjohnson/uploader": "4.*",
+		"dapphp/securimage": "dev-master",
+		"fm-labs/cakephp-captcha": "dev-master"
+		
+	},
+	"extra": {
+	        "installer-paths": {
+	            "plugins/{$name}/": [
+	                "fm-labs/cakephp-captcha"
+	            ]
+	        }
+	    }
 }

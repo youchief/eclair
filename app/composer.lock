@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ff1585fa5bee6d83e8468c046cf0233",
+    "hash": "b7c29a4b796c5e8db920eefa4c0048cb",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.15",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621"
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
-                "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
+                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
                 "shasum": ""
             },
             "replace": {
@@ -48,8 +48,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
@@ -65,6 +64,7 @@
                 "annotatecms",
                 "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
@@ -84,6 +84,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "puppet",
                 "roundcube",
                 "shopware",
                 "silverstripe",
@@ -93,20 +94,94 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-06-23 16:25:28"
+            "time": "2014-08-18 20:00:12"
         },
         {
-            "name": "mjohnson/transit",
-            "version": "1.5.1",
+            "name": "dapphp/securimage",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/milesj/transit.git",
-                "reference": "01fb3d8300fb4be58370979083404e37eee75afc"
+                "url": "https://github.com/dapphp/securimage.git",
+                "reference": "e309fe87603265d87e4f8078305ea09e8e11a191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/milesj/transit/zipball/01fb3d8300fb4be58370979083404e37eee75afc",
-                "reference": "01fb3d8300fb4be58370979083404e37eee75afc",
+                "url": "https://api.github.com/repos/dapphp/securimage/zipball/e309fe87603265d87e4f8078305ea09e8e11a191",
+                "reference": "e309fe87603265d87e4f8078305ea09e8e11a191",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "securimage.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Drew Phillips",
+                    "email": "drew@drew-phillips.com"
+                }
+            ],
+            "description": "PHP CAPTCHA Script",
+            "homepage": "http://phpcaptcha.org",
+            "keywords": [
+                "captcha",
+                "security"
+            ],
+            "time": "2014-08-27 15:24:19"
+        },
+        {
+            "name": "fm-labs/cakephp-captcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fm-labs/cakephp-captcha.git",
+                "reference": "f86cbad439083b35d641a1f26486b40f90e458a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fm-labs/cakephp-captcha/zipball/f86cbad439083b35d641a1f26486b40f90e458a9",
+                "reference": "f86cbad439083b35d641a1f26486b40f90e458a9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "dapphp/securimage": "dev-master"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Captcha"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Florian Beisskammer",
+                    "email": "flowmotionlabs@gmail.com"
+                }
+            ],
+            "description": "CakePHP Captcha Plugin",
+            "time": "2014-03-19 21:32:49"
+        },
+        {
+            "name": "mjohnson/transit",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/milesj/transit.git",
+                "reference": "b8aabc383036e018bccc885cec8859f129120da1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/milesj/transit/zipball/b8aabc383036e018bccc885cec8859f129120da1",
+                "reference": "b8aabc383036e018bccc885cec8859f129120da1",
                 "shasum": ""
             },
             "require": {
@@ -166,7 +241,7 @@
                 "validator",
                 "video"
             ],
-            "time": "2014-03-31 01:15:36"
+            "time": "2014-08-24 22:50:21"
         },
         {
             "name": "mjohnson/uploader",
@@ -226,9 +301,11 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "dapphp/securimage": 20,
+        "fm-labs/cakephp-captcha": 20
+    },
+    "prefer-stable": false,
     "platform": [
 
     ],

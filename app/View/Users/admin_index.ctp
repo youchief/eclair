@@ -3,19 +3,16 @@
         <table cellpadding="0" cellspacing="0" class="table">
                 <tr>
                                                         <th><?php echo $this->Paginator->sort('id'); ?></th>
-                                                        <th><?php echo $this->Paginator->sort('email'); ?></th>
+                                                        <th><?php echo $this->Paginator->sort('username'); ?></th>
                                                         <th><?php echo $this->Paginator->sort('password'); ?></th>
-                                                        <th><?php echo $this->Paginator->sort('role_id'); ?></th>
                                                 <th class="actions"><?php echo __('Actions'); ?></th>
                 </tr>
                 <?php foreach ($users as $user): ?>
 	<tr>
 		<td><?php echo h($user['User']['id']); ?>&nbsp;</td>
-		<td><?php echo h($user['User']['email']); ?>&nbsp;</td>
+		<td><?php echo h($user['User']['username']); ?>&nbsp;</td>
 		<td><?php echo h($user['User']['password']); ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($user['Role']['name'], array('controller' => 'roles', 'action' => 'view', $user['Role']['id'])); ?>
-		</td>
+
 		<td class="actions">
 		<div class="btn-group">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id']), array('class'=>'btn btn-default btn-xs')); ?>

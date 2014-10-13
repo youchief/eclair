@@ -1,0 +1,935 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-08-27 08:54+0000\n"
+"PO-Revision-Date: 2014-09-24 10:38+0100\n"
+"Last-Translator: Cyril <cyril@3xw.ch>\n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.8\n"
+
+#: Controller/AttachmentsController.php:44;76;101
+msgid "Invalid attachment"
+msgstr ""
+
+#: Controller/AttachmentsController.php:59;80
+msgid "The attachment has been saved"
+msgstr ""
+
+#: Controller/AttachmentsController.php:62;83
+msgid "The attachment could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AttachmentsController.php:105
+msgid "Attachment deleted"
+msgstr ""
+
+#: Controller/AttachmentsController.php:108
+msgid "Attachment was not deleted"
+msgstr ""
+
+#: Controller/BlocksController.php:38;70;95
+msgid "Invalid block"
+msgstr ""
+
+#: Controller/BlocksController.php:53;74
+msgid "The block has been saved"
+msgstr ""
+
+#: Controller/BlocksController.php:56;77
+msgid "The block could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BlocksController.php:99
+msgid "Block deleted"
+msgstr ""
+
+#: Controller/BlocksController.php:102
+msgid "Block was not deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:25;67;88
+msgid "The contact has been saved"
+msgstr ""
+
+#: Controller/ContactsController.php:28;70;91
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:52;84;109
+msgid "Invalid contact"
+msgstr ""
+
+#: Controller/ContactsController.php:113
+msgid "Contact deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:116
+msgid "Contact was not deleted"
+msgstr ""
+
+#: Controller/NewsController.php:46;78;103
+msgid "Invalid news"
+msgstr ""
+
+#: Controller/NewsController.php:61;82
+msgid "The news has been saved"
+msgstr ""
+
+#: Controller/NewsController.php:64;85
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:107
+msgid "News deleted"
+msgstr ""
+
+#: Controller/NewsController.php:110
+msgid "News was not deleted"
+msgstr ""
+
+#: Controller/ProductsController.php:27;59;93;120
+#, fuzzy
+msgid "Invalid product"
+msgstr "Prodotti possibili"
+
+#: Controller/ProductsController.php:74;97
+msgid "The product has been saved"
+msgstr ""
+
+#: Controller/ProductsController.php:77;100
+msgid "The product could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ProductsController.php:124
+#, fuzzy
+msgid "Product deleted"
+msgstr "Prodotti possibili"
+
+#: Controller/ProductsController.php:127
+#, fuzzy
+msgid "Product was not deleted"
+msgstr "Prodotti possibili"
+
+#: Controller/RecipeTypesController.php:44;76;101
+msgid "Invalid recipe type"
+msgstr ""
+
+#: Controller/RecipeTypesController.php:59;80
+msgid "The recipe type has been saved"
+msgstr ""
+
+#: Controller/RecipeTypesController.php:62;83
+msgid "The recipe type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RecipeTypesController.php:105
+msgid "Recipe type deleted"
+msgstr ""
+
+#: Controller/RecipeTypesController.php:108
+msgid "Recipe type was not deleted"
+msgstr ""
+
+#: Controller/RecipesController.php:33;59;94;122
+msgid "Invalid recipe"
+msgstr ""
+
+#: Controller/RecipesController.php:74;98
+msgid "The recipe has been saved"
+msgstr ""
+
+#: Controller/RecipesController.php:77;101
+msgid "The recipe could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RecipesController.php:126
+msgid "Recipe deleted"
+msgstr ""
+
+#: Controller/RecipesController.php:129
+msgid "Recipe was not deleted"
+msgstr ""
+
+#: Controller/TypesController.php:45;77;102
+msgid "Invalid type"
+msgstr ""
+
+#: Controller/TypesController.php:60;81
+msgid "The type has been saved"
+msgstr ""
+
+#: Controller/TypesController.php:63;84
+msgid "The type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypesController.php:106
+msgid "Type deleted"
+msgstr ""
+
+#: Controller/TypesController.php:109
+msgid "Type was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:40;72;97
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:55;76
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:58;79
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:101
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:104
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:127
+msgid "Nom d'user ou mot de passe invalide, réessayer"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:4
+msgid "Admin Add Attachment"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:11 View/Attachments/admin_edit.ctp:20
+#: View/Blocks/admin_add.ctp:27 View/Blocks/admin_edit.ctp:11
+#: View/Contacts/admin_add.ctp:14 View/Contacts/admin_edit.ctp:15
+#: View/Contacts/index.ctp:18 View/Hashtags/admin_add.ctp:9
+#: View/Hashtags/admin_edit.ctp:10 View/News/admin_add.ctp:46
+#: View/News/admin_edit.ctp:47 View/Products/admin_add.ctp:58
+#: View/Products/admin_edit.ctp:60 View/RecipeTypes/admin_add.ctp:40
+#: View/RecipeTypes/admin_edit.ctp:37 View/Recipes/admin_add.ctp:51
+#: View/Recipes/admin_edit.ctp:50 View/Roles/admin_add.ctp:10
+#: View/Roles/admin_edit.ctp:11 View/Types/admin_add.ctp:37
+#: View/Types/admin_edit.ctp:40 View/Users/admin_add.ctp:11
+#: View/Users/admin_edit.ctp:12 View/Users/login.ctp:11
+msgid "Submit"
+msgstr ""
+
+#: View/Attachments/admin_edit.ctp:4
+msgid "Admin Edit Attachment"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:2
+msgid "Attachments"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:2 View/Blocks/admin_index.ctp:2
+#: View/Contacts/admin_index.ctp:2 View/Hashtags/admin_index.ctp:2
+#: View/News/admin_index.ctp:2 View/Products/admin_index.ctp:2
+#: View/RecipeTypes/admin_index.ctp:2 View/Recipes/admin_index.ctp:2
+#: View/Roles/admin_index.ctp:2 View/Types/admin_index.ctp:2
+#: View/Users/admin_index.ctp:2
+msgid "+"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:15 View/Attachments/admin_view.ctp:69
+#: View/Blocks/admin_index.ctp:7 View/Contacts/admin_index.ctp:12
+#: View/Hashtags/admin_index.ctp:6 View/News/admin_index.ctp:11
+#: View/Products/admin_index.ctp:10 View/RecipeTypes/admin_index.ctp:7
+#: View/RecipeTypes/admin_view.ctp:37 View/Recipes/admin_index.ctp:9
+#: View/Roles/admin_index.ctp:7 View/Roles/admin_view.ctp:32
+#: View/Types/admin_index.ctp:8 View/Types/admin_view.ctp:49
+#: View/Users/admin_index.ctp:8
+msgid "Actions"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:31 View/Attachments/admin_view.ctp:77
+#: View/Blocks/admin_index.ctp:15 View/Contacts/admin_index.ctp:25
+#: View/Hashtags/admin_index.ctp:13 View/News/admin_index.ctp:23
+#: View/Products/admin_index.ctp:23 View/RecipeTypes/admin_index.ctp:15
+#: View/RecipeTypes/admin_view.ctp:53 View/Recipes/admin_index.ctp:21
+#: View/Roles/admin_index.ctp:15 View/Roles/admin_view.ctp:43
+#: View/Types/admin_index.ctp:17 View/Types/admin_view.ctp:67
+#: View/Users/admin_index.ctp:18
+msgid "View"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:32 View/Attachments/admin_view.ctp:78
+#: View/Blocks/admin_index.ctp:16 View/Contacts/admin_index.ctp:26
+#: View/Hashtags/admin_index.ctp:14 View/News/admin_index.ctp:24
+#: View/Products/admin_index.ctp:24 View/RecipeTypes/admin_index.ctp:16
+#: View/RecipeTypes/admin_view.ctp:54 View/Recipes/admin_index.ctp:22
+#: View/Roles/admin_index.ctp:16 View/Roles/admin_view.ctp:44
+#: View/Types/admin_index.ctp:18 View/Types/admin_view.ctp:68
+#: View/Users/admin_index.ctp:19
+msgid "Edit"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:33 View/Attachments/admin_view.ctp:79
+#: View/Blocks/admin_index.ctp:17 View/Contacts/admin_index.ctp:27
+#: View/Hashtags/admin_index.ctp:15 View/News/admin_index.ctp:25
+#: View/Products/admin_index.ctp:25 View/RecipeTypes/admin_index.ctp:17
+#: View/RecipeTypes/admin_view.ctp:55 View/Recipes/admin_index.ctp:23
+#: View/Roles/admin_index.ctp:17 View/Roles/admin_view.ctp:45
+#: View/Types/admin_index.ctp:19 View/Types/admin_view.ctp:69
+#: View/Users/admin_index.ctp:20
+msgid "Delete"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:33 View/Attachments/admin_view.ctp:60;79
+#: View/Blocks/admin_index.ctp:17 View/Blocks/admin_view.ctp:20
+#: View/Contacts/admin_index.ctp:27 View/Contacts/admin_view.ctp:45
+#: View/Hashtags/admin_index.ctp:15 View/Hashtags/admin_view.ctp:15
+#: View/News/admin_index.ctp:25 View/News/admin_view.ctp:40
+#: View/Products/admin_index.ctp:25 View/Products/admin_view.ctp:58
+#: View/RecipeTypes/admin_index.ctp:17 View/RecipeTypes/admin_view.ctp:20;55
+#: View/Recipes/admin_index.ctp:23 View/Recipes/admin_view.ctp:50
+#: View/Roles/admin_index.ctp:17 View/Roles/admin_view.ctp:20;45
+#: View/Types/admin_index.ctp:19 View/Types/admin_view.ctp:30;69
+#: View/Users/admin_index.ctp:20 View/Users/admin_view.ctp:26
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:42 View/Blocks/admin_index.ctp:26
+#: View/Contacts/admin_index.ctp:36 View/Hashtags/admin_index.ctp:24
+#: View/News/admin_index.ctp:34 View/Products/admin_index.ctp:34
+#: View/RecipeTypes/admin_index.ctp:26 View/Recipes/admin_index.ctp:32
+#: View/Roles/admin_index.ctp:26 View/Types/admin_index.ctp:28
+#: View/Users/admin_index.ctp:29
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:47 View/Blocks/admin_index.ctp:31
+#: View/Contacts/admin_index.ctp:41 View/Hashtags/admin_index.ctp:29
+#: View/News/admin_index.ctp:39 View/Products/admin_index.ctp:39
+#: View/RecipeTypes/admin_index.ctp:31 View/Recipes/admin_index.ctp:37
+#: View/Roles/admin_index.ctp:31 View/Types/admin_index.ctp:33
+#: View/Users/admin_index.ctp:34
+msgid "previous"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:49 View/Blocks/admin_index.ctp:33
+#: View/Contacts/admin_index.ctp:43 View/Hashtags/admin_index.ctp:31
+#: View/News/admin_index.ctp:41 View/Products/admin_index.ctp:41
+#: View/RecipeTypes/admin_index.ctp:33 View/Recipes/admin_index.ctp:39
+#: View/Roles/admin_index.ctp:33 View/Types/admin_index.ctp:35
+#: View/Users/admin_index.ctp:36
+msgid "next"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:2
+msgid "Attachment"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:4;68 View/Blocks/admin_view.ctp:4
+#: View/Contacts/admin_view.ctp:4 View/Hashtags/admin_view.ctp:4
+#: View/News/admin_view.ctp:4 View/RecipeTypes/admin_view.ctp:4;28
+#: View/Roles/admin_view.ctp:4;28 View/Types/admin_view.ctp:4;38
+#: View/Users/admin_view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:9 View/Blocks/admin_view.ctp:9
+#: View/RecipeTypes/admin_view.ctp:9;31 View/Roles/admin_view.ctp:9
+#: View/Types/admin_view.ctp:9;41
+msgid "Name"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:14
+msgid "Date"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:19 View/Products/admin_view.ctp:52
+#: View/Types/admin_view.ctp:2
+msgid "Type"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:24
+msgid "Subtype"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:29
+msgid "Size"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:34
+msgid "Path"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:39
+msgid "Embed"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:44 View/News/admin_view.ctp:14
+#: View/Types/admin_view.ctp:14;42
+msgid "Description"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:49
+msgid "Metadata"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:59
+msgid "Edit Attachment"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:60
+msgid "Delete Attachment"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:64
+msgid "Related Hashtags"
+msgstr ""
+
+#: View/Blocks/admin_add.ctp:4
+msgid "Admin Add Block"
+msgstr ""
+
+#: View/Blocks/admin_edit.ctp:4
+msgid "Admin Edit Block"
+msgstr ""
+
+#: View/Blocks/admin_index.ctp:2
+msgid "Blocks"
+msgstr ""
+
+#: View/Blocks/admin_view.ctp:2
+msgid "Block"
+msgstr ""
+
+#: View/Blocks/admin_view.ctp:19
+msgid "Edit Block"
+msgstr ""
+
+#: View/Blocks/admin_view.ctp:20
+msgid "Delete Block"
+msgstr ""
+
+#: View/Contacts/admin_add.ctp:4
+msgid "Admin Add Contact"
+msgstr ""
+
+#: View/Contacts/admin_edit.ctp:4
+msgid "Admin Edit Contact"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:2
+msgid "Contacts"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:2 View/Contacts/index.ctp:2
+msgid "Contact"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:9 View/Products/admin_view.ctp:9
+#: View/RecipeTypes/admin_view.ctp:29 View/Recipes/admin_view.ctp:9
+#: View/Types/admin_view.ctp:39
+msgid "Created"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:14
+msgid "Firstname"
+msgstr "Nome"
+
+#: View/Contacts/admin_view.ctp:19
+msgid "Lastname"
+msgstr "Cognome"
+
+#: View/Contacts/admin_view.ctp:24 View/Roles/admin_view.ctp:29
+msgid "Email"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:29
+msgid "Entreprise"
+msgstr "Impresa"
+
+#: View/Contacts/admin_view.ctp:34
+msgid "Message"
+msgstr "Messagio"
+
+#: View/Contacts/admin_view.ctp:44
+msgid "Edit Contact"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:45
+msgid "Delete Contact"
+msgstr ""
+
+#: View/Contacts/index.ctp:8
+msgid "Envoyez-nous un message"
+msgstr "Inviaci un messaggio"
+
+#: View/Elements/menu.ctp:27
+msgid "L'ENTREPRISE"
+msgstr "L'IMPRESA"
+
+#: View/Elements/menu.ctp:32
+msgid "Notre histoire"
+msgstr "La nostra storia"
+
+#: View/Elements/menu.ctp:33
+msgid "Une production locale"
+msgstr "Una produzione locale"
+
+#: View/Elements/menu.ctp:34
+msgid "Engagement responsable"
+msgstr "Impegno responsabile"
+
+#: View/Elements/menu.ctp:40 View/Products/index_by_type.ctp:2
+#: View/Products/view.ctp:2
+msgid "PRODUITS"
+msgstr "PRODOTTI"
+
+#: View/Elements/menu.ctp:54 View/Recipes/index.ctp:2
+#: View/Recipes/index_by_type.ctp:2 View/Recipes/view.ctp:2
+msgid "RECETTES"
+msgstr "RICETTE"
+
+#: View/Elements/menu.ctp:59
+msgid "Tout"
+msgstr "Tutto"
+
+#: View/Elements/menu.ctp:71
+msgid "CONTACT"
+msgstr ""
+
+#: View/Elements/menu.ctp:72
+msgid "ESPACE PRO"
+msgstr "SPAZIO PRO"
+
+#: View/Hashtags/admin_add.ctp:4
+msgid "Admin Add Hashtag"
+msgstr ""
+
+#: View/Hashtags/admin_edit.ctp:4
+msgid "Admin Edit Hashtag"
+msgstr ""
+
+#: View/Hashtags/admin_index.ctp:2
+msgid "Hashtags"
+msgstr ""
+
+#: View/Hashtags/admin_view.ctp:2
+msgid "Hashtag"
+msgstr ""
+
+#: View/Hashtags/admin_view.ctp:14
+msgid "Edit Hashtag"
+msgstr ""
+
+#: View/Hashtags/admin_view.ctp:15
+msgid "Delete Hashtag"
+msgstr ""
+
+#: View/News/admin_add.ctp:4
+msgid "Admin Add News"
+msgstr ""
+
+#: View/News/admin_edit.ctp:4
+msgid "Admin Edit News"
+msgstr ""
+
+#: View/News/admin_index.ctp:2 View/News/admin_view.ctp:2
+msgid "News"
+msgstr ""
+
+#: View/News/admin_view.ctp:9
+msgid "Title"
+msgstr ""
+
+#: View/News/admin_view.ctp:19 View/RecipeTypes/admin_view.ctp:34
+#: View/Types/admin_view.ctp:19;43
+msgid "Image"
+msgstr ""
+
+#: View/News/admin_view.ctp:24
+msgid "Start"
+msgstr ""
+
+#: View/News/admin_view.ctp:29
+msgid "End"
+msgstr ""
+
+#: View/News/admin_view.ctp:39
+msgid "Edit News"
+msgstr ""
+
+#: View/News/admin_view.ctp:40
+msgid "Delete News"
+msgstr ""
+
+#: View/Pages/home_deu.ctp:49
+msgid "Frische und Qualität"
+msgstr ""
+
+#: View/Pages/home_deu.ctp:52
+msgid ""
+"Alle Produkte von Eclair müssen strenge Anforderungen erfüllen, um den "
+"Slogan <b><i>Saveur & tradition</b></i> («Geschmack & Tradition») tragen zu "
+"dürfen, der das Unternehmen mit Stolz erfüllt."
+msgstr ""
+
+#: View/Pages/home_deu.ctp:60
+msgid "Regionale Produkte"
+msgstr ""
+
+#: View/Pages/home_deu.ctp:63
+msgid ""
+"Die Marke Eclair arbeitet bevorzugt mit regionalen Produzenten zusammen, die "
+"sich dem Umweltschutz verschrieben haben, und setzt sich für die "
+"Verteidigung ihrer Werte Gesundheit und Nähe ein."
+msgstr ""
+
+#: View/Pages/home_deu.ctp:70
+msgid "Pioniergeist"
+msgstr ""
+
+#: View/Pages/home_deu.ctp:74
+msgid ""
+"Das Unternehmen Eclair ist ein Pionier auf seinem Gebiet und erfand in den "
+"1950er-Jahren in der Westschweiz als erstes die berühmten fertigen "
+"Kuchenteige."
+msgstr ""
+
+#: View/Pages/home_fra.ctp:49
+msgid "Fraîcheur et qualité"
+msgstr ""
+
+#: View/Pages/home_fra.ctp:52
+msgid ""
+"Tous les produits Eclair doivent répondre à de rigoureux standards "
+"d’exigences pour avoir le droit de porter la signature qui fait la fierté de "
+"la marque: <b><i>Saveur & tradition</i></b>."
+msgstr ""
+
+#: View/Pages/home_fra.ctp:60
+#, fuzzy
+msgid "Produits du terroir"
+msgstr "PRODOTTI"
+
+#: View/Pages/home_fra.ctp:63
+msgid ""
+"Travaillant en priorité avec des producteurs de la région respectueux de "
+"l’environnement, la marque Eclair tient à défendre des valeurs de santé et "
+"de proximité."
+msgstr ""
+
+#: View/Pages/home_fra.ctp:70
+msgid "Esprit pionnier"
+msgstr ""
+
+#: View/Pages/home_fra.ctp:74
+msgid ""
+"Pionnière en son domaine, la maison Eclair a été la première en Suisse "
+"romande à concevoir dans les années 50 les fameuses pâtes à gâteaux prêtes à "
+"l’emploi."
+msgstr ""
+
+#: View/Pages/home_ita.ctp:49
+msgid "Freschezza e qualità"
+msgstr ""
+
+#: View/Pages/home_ita.ctp:52
+msgid ""
+"Tutti i prodotti Eclair devono soddisfare rigorosi standard per potersi "
+"fregiare della firma che esprime l'orgoglio del marchio: <b><i>sapore e "
+"tradizione</b></i>"
+msgstr ""
+
+#: View/Pages/home_ita.ctp:60
+msgid "Prodotti del territorio"
+msgstr ""
+
+#: View/Pages/home_ita.ctp:63
+msgid ""
+"Lavorando prevalentemente con produttori della regione rispettosi "
+"dell'ambiente, Eclair è impegnata nella difesa di valori importanti come la "
+"salute e la vicinanza tra luogo d'origine e di lavorazione.\n"
+msgstr ""
+
+#: View/Pages/home_ita.ctp:71
+msgid "Spirito pionieristico"
+msgstr ""
+
+#: View/Pages/home_ita.ctp:75
+msgid ""
+"Eclair, azienda pionieristica nel proprio settore, negli anni Cinquanta ha "
+"proposto per prima in Svizzera romanda le famose paste per dolci, pronte "
+"all'uso."
+msgstr ""
+
+#: View/Products/admin_add.ctp:4 View/Products/admin_edit.ctp:4
+#, fuzzy
+msgid "Admin Add Product"
+msgstr "Prodotti possibili"
+
+#: View/Products/admin_index.ctp:2 View/Products/pro.ctp:2
+msgid "Products"
+msgstr "Prodotti"
+
+#: View/Products/admin_view.ctp:14 View/RecipeTypes/admin_view.ctp:30
+#: View/Recipes/admin_view.ctp:14 View/Types/admin_view.ctp:40
+msgid "Modified"
+msgstr ""
+
+#: View/Products/admin_view.ctp:20 View/Types/admin_view.ctp:46
+msgid "New"
+msgstr ""
+
+#: View/Products/admin_view.ctp:26
+#, fuzzy
+msgid "Pro"
+msgstr "SPAZIO PRO"
+
+#: View/Products/admin_view.ctp:32 View/Types/admin_view.ctp:47
+msgid "Order"
+msgstr ""
+
+#: View/Products/admin_view.ctp:40 View/Products/view.ctp:23
+msgid "Energy Value"
+msgstr "Valori nutritivi"
+
+#: View/Products/admin_view.ctp:44 View/Products/view.ctp:27
+#: View/RecipeTypes/admin_view.ctp:32 View/Recipes/admin_view.ctp:22
+#: View/Recipes/view.ctp:18 View/Types/admin_view.ctp:44
+msgid "Ingredients"
+msgstr "Ingredienti"
+
+#: View/Products/admin_view.ctp:48 View/Products/view.ctp:31
+#: View/Types/admin_view.ctp:45
+msgid "Alergy Informations"
+msgstr "Informazioni per allergici"
+
+#: View/Products/admin_view.ctp:57
+#, fuzzy
+msgid "Edit Product"
+msgstr "Prodotti possibili"
+
+#: View/Products/admin_view.ctp:58
+#, fuzzy
+msgid "Delete Product"
+msgstr "Prodotti possibili"
+
+#: View/Products/pro.ctp:3
+#, fuzzy
+msgid "Professionel Products"
+msgstr "Spazio Pro"
+
+#: View/Products/pro.ctp:9
+#, fuzzy
+msgid "For Professionel"
+msgstr "Spazio Pro"
+
+#: View/Products/view.ctp:41
+msgid "Our Recipes"
+msgstr "Le nostre ricette"
+
+#: View/RecipeTypes/admin_add.ctp:4
+msgid "Admin Add Recipe Type"
+msgstr ""
+
+#: View/RecipeTypes/admin_edit.ctp:4
+msgid "Admin Edit Recipe Type"
+msgstr ""
+
+#: View/RecipeTypes/admin_index.ctp:2
+msgid "Recipe Types"
+msgstr ""
+
+#: View/RecipeTypes/admin_view.ctp:2
+msgid "Recipe Type"
+msgstr ""
+
+#: View/RecipeTypes/admin_view.ctp:19
+msgid "Edit Recipe Type"
+msgstr ""
+
+#: View/RecipeTypes/admin_view.ctp:20
+msgid "Delete Recipe Type"
+msgstr ""
+
+#: View/RecipeTypes/admin_view.ctp:24
+#, fuzzy
+msgid "Related Recipes"
+msgstr "Ricette"
+
+#: View/RecipeTypes/admin_view.ctp:33 View/Recipes/admin_view.ctp:26
+#: View/Recipes/view.ctp:22
+msgid "How To"
+msgstr "Preparazione"
+
+#: View/RecipeTypes/admin_view.ctp:35
+#, fuzzy
+msgid "Product Id"
+msgstr "Prodotti possibili"
+
+#: View/RecipeTypes/admin_view.ctp:36
+msgid "Recipe Type Id"
+msgstr ""
+
+#: View/Recipes/admin_add.ctp:4
+msgid "Admin Add Recipe"
+msgstr ""
+
+#: View/Recipes/admin_edit.ctp:4
+msgid "Admin Edit Recipe"
+msgstr ""
+
+#: View/Recipes/admin_index.ctp:2
+msgid "Recipes"
+msgstr "Ricette"
+
+#: View/Recipes/admin_view.ctp:31 View/Recipes/view.ctp:27
+msgid "Possible Product"
+msgstr "Consigliata pasta"
+
+#: View/Recipes/admin_view.ctp:49
+msgid "Edit Recipe"
+msgstr ""
+
+#: View/Recipes/admin_view.ctp:50
+msgid "Delete Recipe"
+msgstr ""
+
+#: View/Recipes/index.ctp:16
+msgid "Nos recettes"
+msgstr "Le nostre ricette"
+
+#: View/Roles/admin_add.ctp:4
+msgid "Admin Add Role"
+msgstr ""
+
+#: View/Roles/admin_edit.ctp:4
+msgid "Admin Edit Role"
+msgstr ""
+
+#: View/Roles/admin_index.ctp:2
+msgid "Roles"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:2
+msgid "Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:19
+msgid "Edit Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:20
+msgid "Delete Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:24
+msgid "Related Users"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:30 View/Users/admin_view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:31
+msgid "Role Id"
+msgstr ""
+
+#: View/Types/admin_add.ctp:3
+msgid "Admin Add Type"
+msgstr ""
+
+#: View/Types/admin_edit.ctp:3
+msgid "Admin Add Edit"
+msgstr ""
+
+#: View/Types/admin_index.ctp:2
+msgid "Types"
+msgstr ""
+
+#: View/Types/admin_view.ctp:29
+msgid "Edit Type"
+msgstr ""
+
+#: View/Types/admin_view.ctp:30
+msgid "Delete Type"
+msgstr ""
+
+#: View/Types/admin_view.ctp:34
+#, fuzzy
+msgid "Related Products"
+msgstr "Prodotti"
+
+#: View/Types/admin_view.ctp:48
+msgid "Type Id"
+msgstr ""
+
+#: View/Users/admin_add.ctp:4
+msgid "Admin Add User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:4
+msgid "Admin Edit User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/admin_view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:9
+#, fuzzy
+msgid "username"
+msgstr "Cognome"
+
+#: View/Users/admin_view.ctp:25
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:26
+msgid "Delete User"
+msgstr ""
+
+#: View/Users/login.ctp:4
+msgid "Login"
+msgstr ""
+
+#: Model/Attachment.php:validation for field name;validation type;validation
+#: subtype Model/Block.php:validation name
+#: /Users/cyril/Sites/eclair/app/Model/Contact.php:validation
+#: firstname;validation lastname;validation message
+#: /Users/cyril/Sites/eclair/app/Model/News.php:validation title;validation
+#: description /Users/cyril/Sites/eclair/app/Model/Product.php:validation
+#: Model/Recipe.php:validation ingredients;validation how_to
+#: /Users/cyril/Sites/eclair/app/Model/RecipeType.php:validation
+#: Model/Role.php:validation
+#: /Users/cyril/Sites/eclair/app/Model/Type.php:validation
+#: Model/User.php:validation username;validation password
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Attachment.php:validation for field date
+msgid "datetime"
+msgstr ""
+
+#: Model/Attachment.php:validation for field size
+#: /Users/cyril/Sites/eclair/app/Model/Product.php:validation type_id
+#: Model/Recipe.php:validation recipe_type_id
+msgid "numeric"
+msgstr ""
+
+#: /Users/cyril/Sites/eclair/app/Model/Contact.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: /Users/cyril/Sites/eclair/app/Model/News.php:validation for field
+#: start;validation end
+msgid "date"
+msgstr ""

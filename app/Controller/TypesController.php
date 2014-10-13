@@ -20,7 +20,7 @@ class TypesController extends AppController {
         
         public function gettypes(){
                 $this->Type->recursive = 1;
-                return $this->Type->find('list');
+                return $this->Type->find('list', array('conditions' => array('Type.id <>'=> 8)));
         }
 
 /**

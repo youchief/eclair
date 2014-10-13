@@ -17,6 +17,7 @@ class Product extends AppModel {
          * @var string
          */
         public $displayField = 'name';
+        public $order = 'Product.order ASC';
         public $actsAs = array(
             'Translate' => array(
                 'name' => 'nameTranslation',

@@ -18,10 +18,9 @@
             <file>file:/Users/cyril/Sites/eclair/app/View/Contacts/index.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Contacts/admin_add.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/Controller/ContactsController.php</file>
-            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/entreprise.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/entreprise_fra.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Elements/footer.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Elements/header.ctp</file>
-            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/home.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/webroot/css/admin-theme.css</file>
             <file>file:/Users/cyril/Sites/eclair/app/webroot/img/entreprise.jpg</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Layouts/admin.ctp</file>
@@ -65,6 +64,21 @@
             <file>file:/Users/cyril/Sites/eclair/app/View/Emails/html/default.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Emails/text/default.ctp</file>
             <file>file:/Users/cyril/Sites/eclair/app/View/Layouts/Emails/html/default.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/entreprise_ita.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/entreprise_deu.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Hashtags/admin_edit.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Hashtags/admin_add.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Products/pro.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/home_fra.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/home_deu.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Pages/home_ita.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Users/login.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Users/admin_view.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Users/admin_add.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Users/admin_edit.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Users/admin_index.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/View/Recipes/index.ctp</file>
+            <file>file:/Users/cyril/Sites/eclair/app/webroot/js/froala_editor.min.js</file>
         </group>
     </open-files>
 </project-private>

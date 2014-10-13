@@ -6,9 +6,9 @@
 			<?php echo h($user['User']['id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Email'); ?></dt>
+		<dt><?php echo __('username'); ?></dt>
 		<dd>
-			<?php echo h($user['User']['email']); ?>
+			<?php echo h($user['User']['username']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Password'); ?></dt>
@@ -16,11 +16,7 @@
 			<?php echo h($user['User']['password']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Role'); ?></dt>
-		<dd>
-			<?php echo $this->Html->link($user['Role']['name'], array('controller' => 'roles', 'action' => 'view', $user['Role']['id'])); ?>
-			&nbsp;
-		</dd>
+		
         </dl>
 </div>
 <div class="actions">

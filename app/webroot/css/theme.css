@@ -1,15 +1,78 @@
+html{
+        height: 100%;
+}
 body{
         font-family : 'Times New Roman';
+        //max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: "Times New Roman";
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+}
+
+h1{
+        font-size: 1.8em;
+}
+
+h2{
+        font-size: 1.6em;
+}
+
+h3{
+        font-size: 1.4em;
+}
+
+.sidebar-nav .navbar .navbar-collapse {
+        background-color: #dbdbdb;
+        font-family: 'arial';
+}
+.sidebar-nav .navbar li:hover {
+        background: none;
+}
+a.collapsed:hover{
+        background: none;
+}
+
+.nav>li>a {
+        position: relative;
+        display: block;
+        padding: 0;
+}
+
+.affix-sidebar{
+        padding-right:0; 
+        font-size:small;
+        padding-left: 0;
+}  
+
+
+h1{
+        font-style: italic;
+        font-weight: bold;
+        color: #010101;
 }
 
 /* make sidebar nav vertical */ 
 @media (min-width: 768px){
         .affix-content .container {
-                width: 700px;
+                width: 500px;
+
         }   
 
         html,body{
-                background-color: #f8f8f8;
+                background-color: #dbdbdb;
                 height: 100%;
                 overflow: hidden;
         }
@@ -24,10 +87,9 @@ body{
         }  
         .affix-row, .affix-container, .affix-content{
                 height: 100%;
-                overflow: auto;
+                overflow: overlay;;
                 margin-left: 0;
-                margin-right: 0;  
-
+                margin-right: 0;    
         } 
         .affix-content{
                 background-color:white; 
@@ -49,36 +111,63 @@ body{
                 float: none;
                 display: block;
         }
-        .sidebar-nav .navbar li a {
-                padding-top: 12px;
-                padding-bottom: 12px;
-        }  
+
 }
 
-@media (min-width: 769px){
+
+@media (max-width: 769px){
         .affix-content .container {
-                width: 600px;
+                width: 100%;
+                padding-right: 0px;
+                padding-left: 0px;
         }
-        .affix-content .container .page-header{
-                margin-top: 0;
-        }  
+
+        .navbar-toggle {
+                margin-top: 15px;
+        }
+
+        .row {
+                margin-right: 0px;
+                margin-left: 0px;
+        }
 
 
+
+        .nav>li>a {
+                position: relative;
+                display: block;
+                padding: 0;
+                padding-bottom: 0.5em;
+        }
+
+       
 }
 
 @media (min-width: 992px){
+        body{
+                font-size: 20px;
+        }
+
         .affix-content .container {
-                width: 900px;
+                width: 800px;
+
         }
         .affix-content .container .page-header{
                 margin-top: 0;
-        }
-        #content{
-                padding-top: 0px;
         }
 }
 
 @media (min-width: 1220px){
+        body{
+                font-size: 25px;
+        }
+        
+        .affix-content .container {
+                width: 1000px;
+
+        }
+
+
         .affix-row{
                 overflow: hidden;
         }
@@ -88,14 +177,15 @@ body{
         }
 
         .affix-content .container {
-                width: 1000px;
+
         }
 
         .affix-content .container .page-header{
                 margin-top: 0;
         }
         .affix-content{
-
+                padding-right: 30px;
+                padding-left: 30px;
         }  
         .affix-title{
                 border-bottom: 1px solid #ecf0f1; 
@@ -116,66 +206,306 @@ body{
         }  
 }
 
-
-
+#content{
+        height: 100%;
+}
 
 .page-header{
-        border:none;
         text-align: center;
+        border: none;
+        bottom:100px;
+        width: 60%;
+        margin-left:20%; 
 
 }
 
 
 .page-header h1{
         background: white;
-        margin-left:  2em;
-        margin-right: 2em;
-        padding: 1em;
-        position: absolute;
-        top:-200px;
+        padding-top:0.7em;
+
 }
 
 .content-row{
         margin-top: 1em;
         margin-bottom: 1em;
         padding: 0.5em;
+        height: 100%;
+
 }
 
-#content{
-        padding-top: 20px;
+
+.home_page{
+
 }
 
-.home_message{
+
+
+
+
+.home{
+
+        height: 100%;
+}
+
+
+
+.social{
+        position:fixed;
+        bottom:0;
+
+}
+
+
+/*full width container*/
+@media (max-width: 767px) {
+        .block {
+                margin-left: -20px;
+                margin-right: -20px;
+        }
+}
+
+#carousel-example-generic {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+
+}
+.carousel-control {
+        margin-top: 20px;
+}
+.carousel-inner .item {
+        width: 100%;
+        height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 400px;
+}
+
+.carousel-inner{
+        height: 100%;
+}
+.ad1 {
+        background: url(../img/fraicheur.png) no-repeat center center fixed; 
+
+}
+.ad2 {
+        background: url(../img/ble.jpg) no-repeat center center fixed; 
+}
+.ad3 {
+        background: url(../img/esprit.jpg) no-repeat center center fixed; 
+}
+
+.carousel-caption h2{
+        color:#555;
+        text-shadow: none;
+        font-style:italic;
+        border-bottom: 3px solid #e4032e;
+        background: white;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+
+.carousel-caption p{
+        color:#555;
+        text-shadow: none;
+
+        font-size: 1em;
+        padding-left: 1.6em;
+        padding-right: 1.6em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+
+
+}
+
+
+.carousel-caption{
+        left:initial;
         text-align: center;
-        position: fixed;
-        float:right;
-        background:white;
-        opacity: 0.9;
-        padding: 1em;
-        width:300px;
-        bottom:100px;
-        right:100px;
-        box-shadow: 1px 1px 12px #555;
+        background: #dbdbdb;      
+        width:400px;
+
+        color: #333;
+        position: absolute;
+        bottom: 40%;
+        right: 0px;
+        z-index: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        text-align: center;
+        text-shadow: none;
+}
+
+.carousel-control.left ,  .carousel-control.right{
+        background: none;
+}
+
+body > div > div.col-sm-9.col-md-10.affix-content{
+
+        height: 100%;
 }
 
 
-.home_title{
-        font-size: 2em;
-        margin-bottom: 0.5em;
-        font-family : 'Times New Roman';
-        font-style: italic;
-        color:#CCC;
+.address{
+        width: 100%;
+        text-align: center;
+        float: left;
+        position: relative;
+        top:100px;
 }
 
-.home_content{
+.thumbnail{
+        border:none;
+        text-align: center;
 
+}
+
+.thumbnail h3{
         font-size: 1.3em;
+        font-style: italic;
+        color:#333;
+}
+
+.page-title h1{
+        font-style: italic;
+        font-weight: bold;
+        color: #010101;
+}
+
+.image-bg {
+        height:700px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+.back-img{
+        background: url('../img/esprit.jpg') no-repeat center center fixed; 
+        height:650px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: "Times New Roman";
-        font-weight: 500;
-        line-height: 1.1;
-        color: inherit;
+.back-img-ble{
+        background: url('../img/ble.jpg') no-repeat center center fixed; 
+        height:576px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+
+
+.back-img-recipe{
+        background: url('../img/recettes.jpg') no-repeat center center fixed; 
+        height:576px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.legend{
+        background: #575756;
+        color:white;
+        text-align: right;
+
+}
+
+.created{
+        text-align: left;
+        font-family: 'Helvetica';
+}
+
+.recipe h3{
+        text-align: left;
+        margin-top: 0;
+        font-style: normal;
+}
+
+.sidebar-nav .navbar li a:hover {
+        background: none;
+}
+
+.nav>li>a {
+        color:#777;
+}
+
+img#logo{
+        margin-bottom: 3.5em;
+}
+
+p.lang{
+        text-align: left;
+        padding: 0.3em;
+        font-size: 10px;
+
+}
+
+p.lang a{
+        color:#777;
+
+}
+
+.sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+}  
+
+
+.story{
+        padding: 0;
+        margin: 0;
+}
+
+img.img-entreprise, video.img-entreprise, .img-entreprise{
+        margin-top: 2em;
+        margin-bottom: 2em;
+}
+
+.breadcrumb {
+        padding: 8px 15px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        font-size: 0.5em;
+        font-family: 'arial';
+}
+
+.product_info{
+        font-size: 0.7em;
+}
+
+.img-product{
+        text-align: center;
+}
+
+.img-product img{
+        display: initial;
+}
+
+label {
+        font-size: 0.7em;
+}
+
+legend{
+        font-size: 1em;
+        border: none;
 }

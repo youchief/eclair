@@ -22,6 +22,13 @@
                                 <?php echo h($product['Product']['new']); ?>
                                 &nbsp;
                         </dd>
+                        
+                        <dt><?php echo __('Pro'); ?></dt>
+                        <dd>
+                                <?php echo h($product['Product']['pro']); ?>
+                                &nbsp;
+                        </dd>
+                        
                         <dt><?php echo __('Order'); ?></dt>
                         <dd>
                                 <?php echo h($product['Product']['order']); ?>

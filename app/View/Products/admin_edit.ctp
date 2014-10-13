@@ -51,6 +51,7 @@
                 echo $this->Form->input('id');
                 echo $this->Form->input('image', array('class' => 'form-control', 'type' => 'file'));
                 echo $this->Form->input('new', array('class' => 'checkbox'));
+                echo $this->Form->input('pro', array('class' => 'checkbox'));
                 echo $this->Form->input('order', array('class' => 'form-control'));
                 echo $this->Form->input('type_id', array('class' => 'form-control'));
                 ?>

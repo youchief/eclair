@@ -16,6 +16,9 @@ class Recipe extends AppModel {
  */
 	public $displayField = 'name';
         
+        public $order = 'Recipe.created DESC';
+        
+        
          public $actsAs = array(
             'Translate' => array(
                 'name' => 'nameTranslation',

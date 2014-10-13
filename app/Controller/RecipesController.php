@@ -17,17 +17,34 @@ class RecipesController extends AppController {
 	public $components = array('Paginator', 'Session');
         
         
+        public function index() {
+		$this->Recipe->recursive = 0;
+		$this->set('recipes', $this->Paginator->paginate());
+	}
+        
+        
         public function index_by_type($type_id) {
 		$this->Recipe->recursive = 0;
 		$this->set('recipes', $this->Paginator->paginate(array('Recipe.recipe_type_id'=>$type_id)));
+                
+                $this->Recipe->RecipeType->recursive = -1;
+                $type = $this->Recipe->RecipeType->findById($type_id);
+                $this->set('type', $type);
 	}
         
         public function view($id = null) {
 		if (!$this->Recipe->exists($id)) {
 			throw new NotFoundException(__('Invalid recipe'));
 		}
-		$options = array('conditions' => array('Recipe.' . $this->Recipe->primaryKey => $id));
-		$this->set('recipe', $this->Recipe->find('first', $options));
+                
+                $options = array('conditions' => array('Recipe.' . $this->Recipe->primaryKey => $id));
+                
+                //$this->Recipe->recursive = 2;
+                $recipe =  $this->Recipe->find('first', $options);
+                $type = $this->Recipe->RecipeType->findById($recipe['Recipe']['recipe_type_id']);
+                
+		$this->set('recipe', $recipe);
+                $this->set('type', $type);
 	}
         
 
