@@ -36,8 +36,33 @@ $this->assign('keywords', $product['Product']['ingredients']);
                                     </p>
                                     <h3><?php echo __('Alergy Informations'); ?></h3>
                                     <p>
-                                            <?php echo $product['Product']['alergy_informations']; ?>
-                                            <?php //EXEMPLE GLUTEN//echo $this->Html->image('a_gluten.svg', array('width' => '100px')); ?>
+                                            <?php 
+                                                $infos = $product['Product']['alergy_informations']; 
+                                                $infosPlode = explode('/', strip_tags($infos));
+                                                
+                                                $codes = explode(' ', $infosPlode[1]);
+                                                
+                                                echo '<p><strong>'.$infosPlode[0].'</strong></p><br/>';
+                                                        
+                                                if(!empty($codes)){
+                                                  
+                                                        if(!in_array('a_gluten', $codes)){
+                                                            echo $this->Html->image('s_gluten.svg', array('width' => '90px', 'class' => 'ico_right ico_left'));
+                                                        }
+                                                        if(!in_array('a_lactose', $codes)){
+                                                            echo $this->Html->image('s_lactose.svg', array('width' => '90px', 'class' => 'ico_right'));
+                                                        }
+                                                        if(!in_array('a_oeuf', $codes)){
+                                                            echo $this->Html->image('s_oeuf.svg', array('width' => '90px', 'class' => 'ico_right'));
+                                                        }
+//                                                        if(!in_array('a_soja', $codes)){
+//                                                            echo $this->Html->image('s_soja.svg', array('height' => '80px', 'class' => 'ico_left'));
+//                                                        }
+                                                    
+                                                }
+                                            ?>
+
+                                            <?php  ?>
                                     </p>
                             </div>
 

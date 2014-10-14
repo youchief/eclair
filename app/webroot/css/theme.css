@@ -103,6 +103,12 @@ h1{
 }
 
 
+.ico_right{
+    margin-right:15px;
+    margin-left: -15px;
+}
+
+
 .fb{
     margin-top: 90px;
     text-align:center;
@@ -112,6 +118,10 @@ h1{
     padding-left:15px;
     padding-right: 15px;
     padding-bottom: 100px;
+}
+
+.lactose{
+    margin-left: 8px;
 }
 
 /* make sidebar nav vertical */ 
