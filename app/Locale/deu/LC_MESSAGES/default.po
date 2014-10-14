@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2014-08-27 08:54+0000\n"
-"PO-Revision-Date: 2014-09-24 10:38+0100\n"
+"PO-Revision-Date: 2014-10-13 14:32+0100\n"
 "Last-Translator: Cyril <cyril@3xw.ch>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #: Controller/AttachmentsController.php:44;76;101
 msgid "Invalid attachment"
@@ -798,9 +798,8 @@ msgid "Delete Recipe"
 msgstr ""
 
 #: View/Recipes/index.ctp:16
-#, fuzzy
 msgid "Nos recettes"
-msgstr "REZEPTE"
+msgstr "unsere Rezepte"
 
 #: View/Roles/admin_add.ctp:4
 msgid "Admin Add Role"

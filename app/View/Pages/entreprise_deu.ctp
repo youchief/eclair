@@ -4,7 +4,7 @@
         </div>
 
         <div class="col-sm-12 legend">
-                Herr Norbert Vuilleumier in seiner Werkstalt, 1965
+                Norbert Vuilleumier in seiner Werkstalt, 1965
         </div>
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class='container'>
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Echte Leidenschaft, die von Herzen kommt</h2>
                         <p>
                                 Das Unternehmen Eclair Vuilleumier SA ist schon seit mehreren Generationen in der Waadtländer Markenlandschaft verwurzelt und das Ergebnis einer Leidenschaft … Der Leidenschaft seines Gründers Norbert Vuilleumier, der sich schon in seiner Jugend der Kunst des Bäckerhandwerks und der Konditorei widmete. Eine Kunst, die er zu seinem Beruf machen und mit seinem Unternehmergeist und harter Arbeit fördern sollte. Schnell, bereits zu Beginn der 1950er-Jahre, entdeckte der Visionär in fertigem Kuchenteig eine bis dato in der Westschweiz ungenutzte Nische. So wurden die Weichen für das Unternehmen Eclair gestellt und die Entwicklung eines Pioniers in der Lebensmittelindustrie nahm ihren Lauf.
@@ -27,14 +27,14 @@
 
 
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Die wichtigsten Phasen der Geschichte von Eclair:</h2>
 
                 </div>
         </div>
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>1950-1980</strong>
                         </p>
@@ -51,7 +51,7 @@
 
         <div class="row">
  
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>1980-2000</strong>
                         </p>
@@ -67,7 +67,7 @@
        
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>2000-2010</strong>
                         </p>
@@ -78,7 +78,7 @@
 
                 </div>
                 <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 col-md-10 col-md-offset-1">
                                 <video width="100%" height="400" controls=false poster='<?php echo $this->webroot . "videos/poster.png" ?>' class="img-entreprise">
                                         <source src="<?php echo $this->webroot . "videos/pub.mp4" ?>">
                                         <source src="<?php echo $this->webroot . "videos/pub.webm" ?>">
@@ -91,7 +91,7 @@
         </div>
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                         <strong>Seit 2012</strong>
                         </p>
@@ -102,7 +102,7 @@
         </div>
 
         <div class="row" id="production">
-                <div class="col-sm-12 ">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Das Waadtland als Ideal</h2>
                         <p>
                                 Eclair arbeitet fast ausschliesslich mit Produzenten aus der Region, die sich dem Umweltschutz verschrieben haben, und das Unternehmen hat der traditionellen und handwerklichen Arbeitsweise, die sich zu seinem Markenzeichen entwickelt hat, schon immer den Vorzug gegeben. Die Frische und die Qualität der Produkte aus dem Waadtland sind seit den Anfängen die erklärten Werte des Unternehmens. Eine Philosophie, die in dem Slogan «Saveur et tradition» (zu Deutsch: «Geschmack und Tradition») zum Ausdruck kommt. Ob für die Rezepte seiner Produkte oder die Arbeitsmethoden für deren Herstellung – das Waadtland bleibt die wichtigste Inspirationsquelle des Unternehmens und seiner Mitarbeiter.
@@ -124,7 +124,7 @@
 
 
         <div class="row" id="responsable">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Eine verantwortungsvolle Verpflichtung</h2>
                         <p>
                                 Mit erstklassigen Zutaten, die in der Region geerntet und sorgfältig ausgewählt werden, verpflichtet sich Eclair gegenüber den Verbrauchern zu Authentizität, Nachverfolgbarkeit und Nachhaltigkeit und setzt alles daran, ihnen gesunde und geschmackvolle Produkte ohne künstliche Farb- und Konservierungsstoffe anzubieten. Um höchste Qualitätsstandards garantieren zu können, hat Eclair das Verfahren für die ISO-Zertifizierung begonnen, damit die höchsten Normen und Ansprüche in puncto Produktqualität erfüllt werden können.

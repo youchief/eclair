@@ -3,3 +3,4 @@ app/Test
 app/tmp
 app/Config
 app/Vendor
+app/webroot/files

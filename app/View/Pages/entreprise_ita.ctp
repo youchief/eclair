@@ -4,7 +4,7 @@
         </div>
 
         <div class="col-sm-12 legend">
-                Signore Norbert Vuilleumier nel sin laboratorio, 1965
+                Norbert Vuilleumier nel sin laboratorio, 1965
         </div>
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class='container'>
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Panificazione con passione</h2>
                         <p>
                                 Da varie generazioni azienda vodese di spicco nel panorama dei marchi romandi, Eclair Vuilleumier SA è nata dalla passione del suo fondatore Norbert Vuilleumier per l'arte della panificazione e della pasticceria, coltivata sin dall'adolescenza. Trasformatasi in vera e propria professione, Vuilleumier promuove quest'arte grazie al suo spirito imprenditoriale e al suo instancabile impegno. Visionario, scopre ben presto una nicchia di mercato ancora inesplorata nella Svizzera romanda di inizio anni Cinquanta: la pasta per torte pronta per l'uso. È così che Eclair pone le basi di un nuovo settore, affermandosi come pioniere nell'industria alimentare. 
@@ -27,14 +27,14 @@
 
 
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Storia di Eclair in periodi chiave :</h2>
 
                 </div>
         </div>
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>1950-1980</strong>
                         </p>
@@ -50,7 +50,7 @@
 
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>1980-2000</strong>
                         </p>
@@ -66,7 +66,7 @@
 
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>2000-2010</strong>
                         </p>
@@ -77,7 +77,7 @@
 
                 </div>
                 <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 col-md-10 col-md-offset-1">
                                 <video width="100%" height="400" controls=false poster='<?php echo $this->webroot . "videos/poster.png" ?>' class="img-entreprise">
                                         <source src="<?php echo $this->webroot . "videos/pub.mp4" ?>">
                                         <source src="<?php echo $this->webroot . "videos/pub.webm" ?>">
@@ -90,7 +90,7 @@
         </div>
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>Dal 2012</strong>
                         </p>
@@ -101,7 +101,7 @@ Nel 2012 Yves Vuilleumier, figlio minore di Roland, entra a far parte dell'azien
         </div>
 
         <div class="row" id="production">
-                <div class="col-sm-12 ">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Il "Pays de Vaud" come ideale</h2>
                         <p>
                                 Da varie generazioni azienda vodese di spicco nel panorama dei marchi romandi, Eclair Vuilleumier SA è nata dalla passione del suo fondatore Norbert Vuilleumier per l'arte della panificazione e della pasticceria, coltivata sin dall'adolescenza. Trasformatasi in vera e propria professione, Vuilleumier promuove quest'arte grazie al suo spirito imprenditoriale e al suo instancabile impegno. Visionario, scopre ben presto una nicchia di mercato ancora inesplorata nella Svizzera romanda di inizio anni Cinquanta: la pasta per torte pronta per l'uso. È così che Eclair pone le basi di un nuovo settore, affermandosi come pioniere nell'industria alimentare. 
@@ -123,7 +123,7 @@ Nel 2012 Yves Vuilleumier, figlio minore di Roland, entra a far parte dell'azien
 
 
         <div class="row" id="responsable">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Un impegno responsabile
                         </h2>
                         <p>

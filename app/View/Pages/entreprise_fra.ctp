@@ -4,7 +4,7 @@
         </div>
 
         <div class="col-sm-12 legend">
-                M. Norbert Vuilleumier dans son atelier en 1965
+                Norbert Vuilleumier dans son atelier en 1965
         </div>
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class='container'>
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>La passion chevillée au corps</h2>
                         <p>
                                 Entreprise vaudoise ancrée dans le paysage des marques romandes depuis plusieurs générations, Eclair Vuilleumier SA est née d’une passion, celle de son fondateur Norbert Vuilleumier, qui cultivait dès son adolescence l’art de la boulangerie et de la pâtisserie. Un art dont il fera son métier et qu’il aura à cœur de promouvoir grâce à son esprit d’entreprise et son travail acharné. Visionnaire, il découvre bien vite, à l’orée des années 50, une niche encore non exploitée en Suisse romande : la pâte à gâteau prête à l’emploi. Eclair pose alors ses jalons et s’affirme comme un pionnier dans l’industrie alimentaire. 
@@ -27,14 +27,14 @@
 
 
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>L’histoire d’Eclair en quelques périodes clés :</h2>
 
                 </div>
         </div>
         <div class="row">
                 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <b>1950-1980</b>
                         </p>
@@ -51,7 +51,7 @@
 
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                          <p>
                                 <strong>1980-2000</strong>
                         </p>
@@ -65,7 +65,7 @@
                 </div>
         </div>
         <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
 
                         <p>
 
@@ -73,7 +73,7 @@
                 </div>
         </div>
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                          <p>
                                 <strong>2000-2010</strong>
                         </p>
@@ -84,7 +84,7 @@
 
                 </div>
                 <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 col-md-10 col-md-offset-1">
                                 <video width="100%" height="400" controls=false poster='<?php echo $this->webroot . "videos/poster.png" ?>' class='img-entreprise'>
                                         <source src="<?php echo $this->webroot . "videos/pub.mp4" ?>">
                                         <source src="<?php echo $this->webroot . "videos/pub.webm" ?>">
@@ -97,7 +97,7 @@
         </div>
         <div class="row">
 
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <p>
                                 <strong>Depuis 2012</strong>
                         </p>
@@ -109,7 +109,7 @@
         </div>
 
         <div class="row" id="production">
-                <div class="col-sm-12 ">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Le Pays de Vaud pour idéal</h2>
                         <p>
                                 Travaillant presque uniquement avec des producteurs de la région respectueux de l’environnement, Eclair a toujours souhaité privilégier l’esprit traditionnel et artisanal qui fait sa marque de fabrique. Fraîcheur et qualité des produits du terroir vaudois sont en effet les valeurs défendues depuis ses débuts. Une philosophie qui s’exprime à travers son credo « Saveur et tradition ». Que ce soit pour les recettes de ses produits ou pour les méthodes de travail adoptées pour leur création, le Pays de Vaud demeure la source d’inspiration principale de l’entreprise et des personnes qui la constituent.
@@ -131,7 +131,7 @@
 
 
         <div class="row" id="responsable">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                         <h2>Un engagement responsable</h2>
                         <p>
                                 Avec des ingrédients de première qualité, récoltés dans la région et rigoureusement sélectionnés, Eclair s’engage auprès de ses consommateurs à fournir authenticité, traçabilité et durabilité, mettant tout en œuvre pour leur proposer des produits sains et savoureux sans colorants ni agents conservateurs artificiels. Afin de pouvoir garantir des standards élevés de qualité, Eclair a entamé un processus de certification ISO, répondant ainsi aux normes et exigences les plus pointues quant à l’excellence de ses produits. 

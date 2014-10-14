@@ -70,12 +70,22 @@
                                         </li>
                                         <li><?php echo $this->Html->link(__('CONTACT'), array('controller' => 'contacts', 'action' => 'index')) ?></li>
                                         <li><?php echo $this->Html->link(__('ESPACE PRO'), array('controller' => 'products', 'action' => 'pro')) ?></li>
-                                        <li><a href='https://www.facebook.com/pages/Eclair-Vuilleumier-SA/424855234239907?fref=ts' target='_blank'><?php echo $this->Html->image('logo_facebook.png', array('width'=>'24px')) ?></a></li>
+                                        <li class="hidden-md hidden-lg"><a href='https://www.facebook.com/pages/Eclair-Vuilleumier-SA/424855234239907?fref=ts' target='_blank'><?php echo $this->Html->image('logo_facebook.png', array('width'=>'24px')) ?></a></li>
 
                                 </ul>
                         </div><!--/.nav-collapse -->
+                        
+                        
 
                 </div>
+        </div>
+        <div class="ico-recette hidden-xs hidden-sm">
+            <i><?php //echo $this->Html->link(__('Nos recettes') , array('controller' => 'recipes', 'action' => 'index')) ?></i>
+            <?php echo $this->Html->link( $this->Html->image('recettes.svg', array('width' => '145px')), array('controller' => 'recipes', 'action' => 'index'), array('escape' => false) ); ?>
+            <h2><?php echo $this->Html->link( __('Nos recettes'), array('controller' => 'recipes', 'action' => 'index') ) ; ?></h2>
+        </div>  
+        <div class="fb hidden-xs hidden-sm">
+            <a href='https://www.facebook.com/pages/Eclair-Vuilleumier-SA/424855234239907?fref=ts' target='_blank'><?php echo $this->Html->image('logo_facebook.png', array('width'=>'24px')) ?></a>
         </div>
         <div class="address hidden-xs">
                 <strong>Eclair Vuilleumier S.A.</strong>

@@ -1,4 +1,5 @@
-<ol class="breadcrumb">
+<div class="padding">
+        <ol class="breadcrumb">
                 <li><?php echo __('RECETTES') ?></li>
                 <li><?php echo $type['RecipeType']['name'] ?></li>
         </ol>
@@ -18,3 +19,4 @@
                         </div>
                 <?php endforeach; ?>
         </div>
+</div>
