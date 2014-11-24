@@ -380,7 +380,7 @@ h1{
 
 }
 .ad2 {
-        background: url(../img/ble.jpg) no-repeat center center fixed; 
+        background: url(../img/campagne.jpg) no-repeat center center fixed; 
 }
 .ad3 {
         background: url(../img/esprit.jpg) no-repeat center center fixed; 
@@ -487,7 +487,7 @@ body > div > div.col-sm-9.col-md-10.affix-content{
 }
 
 .back-img-ble{
-        background: url('../img/ble.jpg') no-repeat center center fixed; 
+        background: url('../img/campagne.jpg') no-repeat center center fixed; 
         height:576px;
         -webkit-background-size: cover;
         -moz-background-size: cover;

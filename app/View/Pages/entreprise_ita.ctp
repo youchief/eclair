@@ -59,7 +59,7 @@
 
                         </p>
                         <p>
-                                <?php echo $this->Html->image('entreprise.jpg', array('class' => 'img-responsive img-entreprise')) ?>
+                                <?php echo $this->Html->image('entreprise2.jpg', array('class' => 'img-responsive img-entreprise')) ?>
                         </p>
                 </div>
         </div>
@@ -95,7 +95,7 @@
                                 <strong>Dal 2012</strong>
                         </p>
                         <p>
-Nel 2012 Yves Vuilleumier, figlio minore di Roland, entra a far parte dell'azienda e l'anno dopo assume incarichi dirigenziali a fianco del fratello Fabrice. Dal 2013 sono entrambi direttori ufficiali della società, oltre che garanti di una tradizione familiare e di un approccio artigianale nella preparazione di prodotti alimentari. Su loro iniziativa, Eclair pone l'accento sulla comunicazione del marchio per conferirgli una maggiore visibilità sul mercato. Fabrice gestisce produzione, acquisto delle materie prime e logistica, mentre Yves si occupa degli aspetti amministrativi come contabilità, gestione del personale e comunicazione. Entrambi si occupano di consulenza ai clienti.
+Nel 2012 Yves Vuilleumier, figlio minore di Roland, entra a far parte dell'azienda e l'anno dopo assume incarichi dirigenziali a fianco del fratello Fabrice. Dal 2013 sono entrambi direttori ufficiali della società, oltre che garanti di una tradizione familiare e di un approccio artigianale nella preparazione di prodotti alimentari. Su loro iniziativa, Eclair potenzia lo sviluppo di nuovi prodotti, come la "Curiosité aux amandes et au miel" o il "Gâteau de Goumoëns". La politica di Fabrice e Yves pone anche l'accento sulla comunicazione del marchio per conferirgli una maggiore visibilità sul mercato. Fabrice gestisce produzione, acquisto delle materie prime e logistica, mentre Yves si occupa degli aspetti amministrativi come contabilità, gestione del personale e comunicazione. Entrambi si occupano di consulenza ai clienti.
                         </p>
                 </div>
         </div>

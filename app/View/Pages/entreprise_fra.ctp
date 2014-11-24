@@ -60,7 +60,7 @@
 
                         </p>
                         <p>
-                                <?php echo $this->Html->image('entreprise.jpg', array('width' => '100%', 'class'=>'img-entreprise')) ?>
+                                <?php echo $this->Html->image('entreprise2.jpg', array('width' => '100%', 'class'=>'img-entreprise')) ?>
                         </p>
                 </div>
         </div>
@@ -102,7 +102,8 @@
                                 <strong>Depuis 2012</strong>
                         </p>
                         <p>
-                                En 2012, Yves Vuilleumier, fils cadet de Roland, entre en fonction au sein de l’entreprise et rejoint son frère Fabrice à la direction l’année suivante. Depuis 2013, ils sont tous deux officiellement directeurs de la société et garants d’une tradition familiale et d’une approche artisanale de la confection de produits alimentaires. Sous leur impulsion, Eclair met l’accent sur la communication de la marque afin de lui donner une meilleure visibilité sur le marché. Fabrice gère la production, les achats de matières premières ainsi que la logistique, alors qu’Yves est en charge de l’administration (finances, gestion du personnel et communication). Tous deux assument ensemble le conseil à la clientèle.
+                               En 2012, Yves Vuilleumier, fils cadet de Roland, entre en fonction au sein de l’entreprise et rejoint son frère Fabrice à la direction l’année suivante. Depuis 2013, ils sont tous deux officiellement directeurs de la société et garants d’une tradition familiale et d’une approche artisanale de la confection de produits alimentaires. Sous leur impulsion, Eclair multiplie le développement de nouveaux produits, comme la „Curiosité aux amandes et au miel“ ou le „gâteau de Goumoëns“. La politique de Fabrice et Yves est également de mettre l’accent sur la communication de la marque afin de lui donner une meilleure visibilité sur le marché.  Fabrice gère la production, les achats de matières premières ainsi que la logistique, alors qu’Yves est en charge de l’administration (finances, gestion du personnel et communication). Tous deux assument ensemble le conseil à la clientèle.
+
 
                         </p>
                 </div>

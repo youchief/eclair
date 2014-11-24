@@ -59,7 +59,7 @@
                                 Gründung der AG 1983. Sechs Jahre später nimmt Eclair ein neues, mit Spitzentechnologie ausgestattetes Labor in Betrieb, in dem 25 Experten arbeiten, um neue Konditorei- und Keksprodukte zu entwickeln. 1991 erfindet Roland Vuilleumier die Reihe Quicook mit Fertigteig in einer Backform. Im darauffolgenden Jahr übernimmt Eclair die Keksfabrik Grand-mère de Chambrelien und integriert sie in seinen Standort in Ecublens. 1993 sichert sich das Unternehmen das Schweizerische und europäische Patent für den Quicook-Teig, dessen Sortiment in den folgenden fünf Jahren insbesondere mit der Kreation der Apfel- und der Käsewähen vergrössert wird.
                         </p>
                         <p>
-                                <?php echo $this->Html->image('entreprise.jpg', array('class' => 'img-responsive img-entreprise')) ?>
+                                <?php echo $this->Html->image('entreprise2.jpg', array('class' => 'img-responsive img-entreprise')) ?>
                         </p>
                 </div>
         </div>
@@ -96,7 +96,8 @@
                         <strong>Seit 2012</strong>
                         </p>
                         <p>
-                                2012 tritt Yves Vuilleumier, Rolands jüngster Sohn, in das Unternehmen ein und unterstützt seinen Bruder Fabrice ab dem darauffolgenden Jahr in der Geschäftsführung. Seit 2013 sind die beiden die offiziellen Geschäftsführer des Unternehmens und Garanten einer Familientradition und eines handwerklichen Ansatzes für die Lebensmittelherstellung. Unter ihrem Impuls legt Eclair den Schwerpunkt auf die Kommunikation der Marke, um ihr eine grössere Sichtbarkeit auf dem Markt zu verschaffen. Fabrice leitet Produktion, Rohstoffbeschaffung und Logistik, während sich Yves um die Verwaltung kümmert (Finanzen, Personalverwaltung und Kommunikation). Gemeinsam stellen die beiden die Kundenberatung sicher.
+                                2012 tritt Yves Vuilleumier, Rolands jüngster Sohn, in das Unternehmen ein und unterstützt seinen Bruder Fabrice ab dem darauffolgenden Jahr in der Geschäftsführung. Seit 2013 sind die beiden die offiziellen Geschäftsführer des Unternehmens und Garanten einer Familientradition und eines handwerklichen Ansatzes für die Lebensmittelherstellung. Auf ihr Betreiben konzentriert sich Eclair vermehrt auf die Entwicklung neuer Produkte, wie beispielsweise die «Köstlichkeit mit Mandeln und Honig» oder den «Goumoëns-Kuchen». Die Strategie von Fabrice und Yves besteht ebenfalls darin, den Schwerpunkt auf die Kommunikation der Marke zu legen, um ihr eine bessere Sichtbarkeit auf dem Markt zu verleihen. Fabrice leitet Produktion, Rohstoffbeschaffung und Logistik, während sich Yves um die Verwaltung kümmert (Finanzen, Personalverwaltung und Kommunikation). Gemeinsam stellen die beiden die Kundenberatung sicher.
+
                         </p>
                 </div>
         </div>
