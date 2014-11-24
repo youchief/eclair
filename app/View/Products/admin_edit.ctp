@@ -42,7 +42,7 @@
                                 echo $this->Form->input('Product.name.eng', array('label' => 'Name', 'class' => 'form-control', 'value' => $this->request->data['nameTranslation'][3]['content']));
                                 echo $this->Form->input('Product.description.eng', array('class' => 'form-control', 'type' => 'textarea', 'label' => 'Description', 'value' => $this->request->data['descriptionTranslation'][3]['content']));
                                 echo $this->Form->input('Product.ingredients.eng', array('class' => 'form-control', 'type' => 'textarea', 'label' => 'Ingedients', 'value' => $this->request->data['ingredientsTranslation'][3]['content']));
-                                echo $this->Form->input('Product.alergy_informations.eng', array('class' => 'form-control', 'type' => 'textarea', 'label' => 'Alergy Informations', 'value' => $this->request->data['alergy_informationsTranslation'][3]['content']));
+                                echo $this->Form->input('Product.alergy_informations.eng', array('class' => 'form-control', 'type' => 'textarea', 'label' => 'Alergy Informations (ajouter code img [s_gluten, s_lactose, s_oeuf, s_soja] ex. "Ne contient pas du gluten et lactose / s_gluten s_lactose" )', 'value' => $this->request->data['alergy_informationsTranslation'][3]['content']));
                                 echo $this->Form->input('Product.energy_value.eng', array('class' => 'form-control', 'type' => 'textarea', 'label' => 'Energy Value', 'value' => $this->request->data['energy_valueTranslation'][3]['content']));
                                 ?>
                         </div>
